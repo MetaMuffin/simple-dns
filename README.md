@@ -21,3 +21,7 @@ If config files are changed, they will be reloaded automatically
 
 Install ts-node with npm if you haven't already.
 Then use `ts-node index.ts` to run. (Be sure to create the `hosts` directory before that)
+
+## To-do
+
+- Allow forwarding servers and caching if a host could not be resolved. Just add some other dns server as a fallback.
